@@ -8,10 +8,13 @@ public class CameraScript : MonoBehaviour
 
     void Start()
     {
-        
+
     }
+
     void LateUpdate()
     {
         this.transform.position = new Vector3(target.transform.position.x, this.transform.position.y, this.transform.position.z);
     }
+
+
 }
